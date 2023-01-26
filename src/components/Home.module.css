@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+
+.text{
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 37px;
+    color: #000000;
+    text-align: center;
+}
+
+.subtext{
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 86px;
+    text-align: center;
+    color: #000000;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 182px;
+}
+
+.btn1{
+    background: #2F80ED;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 145px;
+    padding-right: 144px;
+
+
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+}
+
+.btn2{
+    background: #F2C94C;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    border: none;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 134px;
+    padding-right: 133px;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+}

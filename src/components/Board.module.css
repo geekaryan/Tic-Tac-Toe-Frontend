@@ -1,0 +1,140 @@
+.board{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+
+}
+
+@media only screen and (min-width: 385px){
+    .board{
+        margin-left: 10%;
+    }
+}
+@media only screen and (min-width: 469px){
+    .board{
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (min-width: 555px){
+    .board{
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .board{
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .board{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .board{
+        margin-left: 38%;
+    }
+}
+
+
+
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #FFE79E;
+    width: 327.88px;
+    margin-right: 24px;
+    font-size: 32px;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    
+    margin-bottom: 6px;
+    margin-right: 6px;
+    height: 105px;
+    width: 105px;
+}
+
+.box1btm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    
+    margin-right: 6px;
+    height: 106px;
+    width: 105px;
+
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    
+    margin-bottom: 6px;
+    height: 105px;
+    width: 106px;
+}
+
+.box2btm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    
+    height: 106px;
+    width: 106px;
+}
+
+
+.div{
+    background: #FFE79E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.9159px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #212121;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 30px;
+}
+
+
+.bgText{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 32px;
+    margin-right: 24px;
+    text-align: center;
+    /* identical to box height, or 114% */
+
+    letter-spacing: -0.05em;
+
+    /* Dark Grey */
+
+    color: #333333;
+}
