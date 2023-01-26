@@ -10,19 +10,21 @@ const SignUp = ({ setIsAuth, backSignUp }) => {
   const [congrats, setCongrats] = useState("");
 
   const signUpHandler = async () => {
-    Axios.post("http://localhost:3001/singup", user).then((res) => {
-      const { token, userId, firstName, lastName, userName, hashedPassword } =
-        res.data;
+    Axios.post("https://tictactoesudoapts-api.onrender.com/singup", user).then(
+      (res) => {
+        const { token, userId, firstName, lastName, userName, hashedPassword } =
+          res.data;
 
-      cookies.set("token", token);
-      cookies.set("userId", userId);
-      cookies.set("firstName", firstName);
-      cookies.set("lastName", lastName);
-      cookies.set("userName", userName);
-      cookies.set("hashedPassword", hashedPassword);
-      setIsAuth(true);
-      setCongrats("yes account is created");
-    });
+        cookies.set("token", token);
+        cookies.set("userId", userId);
+        cookies.set("firstName", firstName);
+        cookies.set("lastName", lastName);
+        cookies.set("userName", userName);
+        cookies.set("hashedPassword", hashedPassword);
+        setIsAuth(true);
+        setCongrats("yes account is created");
+      }
+    );
   };
   return (
     <div className={styles.container}>

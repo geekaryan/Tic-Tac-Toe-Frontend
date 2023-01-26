@@ -11,7 +11,7 @@ const Login = ({ setIsAuth, backLogin }) => {
   const [error, setError] = useState("");
 
   const loginHandler = () => {
-    Axios.post("http://localhost:3001/login", {
+    Axios.post("https://tictactoesudoapts-api.onrender.com/login", {
       userName,
       password,
     })
